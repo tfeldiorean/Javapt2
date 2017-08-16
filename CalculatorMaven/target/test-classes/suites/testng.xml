@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="addTest" verbose="1" >
+    <test name="Regression1"   >
+        <classes>
+            <class name="SumTest.SumTestIT" />
+            <class name = "FactorialTest.FactorialTestIT" />
+        </classes>
+    </test>
+</suite>
